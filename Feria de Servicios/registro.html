@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feria de Servicios</title>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css"/>
+</head>
+
+<body>
+
+	<header>
+		<p id="encabezado">Feria de Servicios</p>
+		<p id="subtitulo">El portal dedicado al trabajo freelance</p>
+
+	</header>
+
+	<nav class="navbar navbar-expand-lg navbar-light" id="barranav"><!--  bg-light-->
+		 
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+		    <!-- <a class="navbar-brand" href="#">Hidden brand</a> -->
+		    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+		      
+			<a href="home.html"> <button type="button" class="btn btn-outline-info">Home</button> </a>
+			<button type="button" class="btn btn-outline-secondary">Quienes somos</button>
+				
+		     
+
+		      	<!-- BOTON DROP -->
+		      	 <div class="btn-group dropright">
+
+				  <button type="button" class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    Ingresá
+				  </button>
+
+				    <!-- Dropdown formulario de ingreso -->
+
+										    <div class="dropdown-menu">
+						  <form class="px-4 py-3">
+						    <div class="form-group">
+						      <label for="exampleDropdownFormEmail1">Usuario</label>
+						      <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="@">
+						    </div>
+						    <div class="form-group">
+						      <label for="exampleDropdownFormPassword1">Contraseña</label>
+						      <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="* * * *">
+						    </div>
+						    <div class="form-group">
+						    </div>
+						    <button type="submit" class="btn btn-outline-primary">Ingresar</button>
+						  </form>
+						  <div class="dropdown-divider"></div>
+						  <a class="dropdown-item" href="#">¿Te olvidaste la contraseña?</a>
+						</div>
+
+						<!---  -->
+				</div>
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="search" placeholder="Buscá" aria-label="Search">
+		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscá</button>
+		    </form>
+		  </div>
+	</nav>
+
+	<section>
+		
+		<article class="consultas">
+			
+			<div class="row">
+				<div class="col-md-12">
+				
+					<h2 class="titulo">Registrate!</h2>
+				</div>
+			</div>
+
+			<div>
+				<form id="form_consulta" method="post" action="mailto:info@galeriadeservicios.com.ar">
+				
+				<input type =text name="nombre" alt="nombre" size="35" placeholder="Nombre (obligatorio)"/> 	<input type =text name="apellido" alt="apellido" size="35" placeholder="Apellido (obligatorio)"/> <br><br>
+				<input type =email name="mail" alt="email" size="50" placeholder="Email (obligatorio)"/> <br><br>
+				<input type =password name="password" alt="password" placeholder="Contraseña"/> <input type =password name="password" alt="password" placeholder="Repetí la contraseña"/> <br> <br>
+				<textarea name="comentario" alt="comentario" placeholder="Agregá un comentario" cols="60" rows="3" maxlength="180">
+			</textarea><br><br>
+
+			<button>Enviar</button>
+			</form>
+		</div>
+
+		</article>
+	</section>
+
+	<hr/>
+
+	<footer>
+		<div class="row">
+
+			<div class="col-md-4">
+				
+				<a href="home.html"><p>Home</p></a>
+				<p>¿Quienes somos?</p>
+				<p>Contacto</p>
+				<p>Copyright 2019</p>
+			</div>
+
+			<div class="cold-md-6">
+
+				<ul id="ulfooter">
+					<a target="blank" href="http://www.instagram.com"><li><img class="footer_icon" src="images/icons/instagram_icono.png"/></li></a>
+					<a target="blank" href="http://www.twitter.com"><li><img class="footer_icon" src="images/icons/twitter_icono.png"/></li> </a>
+					<a target="blank" href="http://www.facebook.com"><li><img class="footer_icon" src="images/icons/facebook_icono.png"/></li></a>
+				</ul>
+			</div>
+		</div>
+		
+
+	</footer>
+
+
+
+<script src="vendor/jquery/jquery-3.4.1.min.js">
+</script>
+
+<script src="vendor/popper/popper.min.js">
+</script>
+
+<script src="vendor/bootstrap/js/bootstrap.min.js">
+</script>
+
+		
+</body>
+</html>

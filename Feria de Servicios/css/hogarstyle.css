@@ -1,0 +1,78 @@
+header{
+	background-position:left;
+	background-image:url("../images/banner003.jpg");
+	padding:1px 50px 1px 50px;
+}
+
+#encabezado{
+	font-family:sonto;
+	font-size:40px;
+	text-shadow: 1px 1px 10px black;
+	color:#C2D2F2;
+	margin:0px auto;
+}
+
+#subtitulo{
+	font-family:clemente;
+	font-size:10px;
+	margin:0px auto;
+	width:15%;
+	text-shadow: 5px 5px 8px #C2D2F2;
+	color:white;
+	background-color:rgba(201,219,242, 0.6);
+	transform:rotate(-1deg);
+}
+
+#barranav{
+	background-position:left;
+	background-image:url("../images/banner003.jpg");
+}
+
+.card-title{
+	font-family:"sonto";
+}
+
+.card-text{
+	font-family:"clemente";
+}
+
+.cartelera{
+	background-image:url("../images/banner003.jpg");
+	background-position:right;
+	height:450px;
+	border:solid 1px black;
+	overflow-y:scroll;
+	padding:20px;
+}
+
+.cartel{
+	margin:0px auto;
+}
+
+.presentacion{
+	background-color:rgba(0, 0, 0, 0.7);
+	padding:20px;
+	height:450px
+}
+
+.presentacion > h5{
+	font-family:sonto;
+	background-color:#9CB6D9;
+	color:white;
+	border-radius:0px 100px 100px 0px;
+	padding:20px;
+	font-size:30px;
+}
+
+.presentacion > p{
+	font-family:clemente;
+	font-size:30px;
+	color:white;
+	margin:30px auto;
+}
+
+footer{
+	background-position:left;
+	background-image:url("../images/banner003.jpg");
+	text-align:left;
+}
