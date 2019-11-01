@@ -1,0 +1,104 @@
+header{
+	background-position:left;
+}
+
+#barranav{
+	background-position:left;
+}
+
+.card-title{
+	font-family:sonto;
+}
+
+.card-text{
+	font-family:clemente;
+}
+
+.tarjeta{
+	font-family:clemente;
+	font-size:20px;
+	height:350px;
+	position:relative;
+}
+
+#titulo_asistencia{
+	font-family:sonto;
+	background-color:rgba(167, 242, 242, 0.84);
+	color:green;
+	height:60px;
+	width:100%;
+	padding:5px 15px;
+	position:absolute;
+	bottom:0px;
+} 
+
+#titulo_hogar{
+	font-family:sonto;
+	background-color:rgba(187, 200, 242, 0.84);
+	color:blue;
+	height:60px;
+	width:100%;
+	padding:5px 15px;
+	position:absolute;
+	bottom:0px;
+} 
+
+#titulo_eventos{
+	font-family:sonto;
+	background-color:rgba(242, 148, 156, 0.84);
+	color:red;
+	height:60px;
+	width:100%;
+	padding:5px 15px;
+	position:absolute;
+	bottom:0px;
+} 
+
+#titulo_artesanal{
+	font-family:sonto;
+	background-color:rgba(242, 216, 136, 0.84);
+	color:brown;
+	height:60px;
+	width:100%;
+	padding:5px 15px;
+	position:absolute;
+	bottom:0px;
+}
+
+#titulo_asistencia:hover{
+	background-color:#5BCD1A;
+	/*color:rgba(167, 242, 242, 0.84);*/
+	color:white;
+	border-radius:0px 100px 100px 0px;
+}
+
+#titulo_hogar:hover{
+	background-color:#51C8F2;
+	/*color:rgba(187, 200, 242, 0.84);*/
+	color:white;
+	border-radius:0px 100px 100px 0px;
+}
+
+#titulo_eventos:hover{
+	background-color:#DE9437;
+	/*color:rgba(242, 148, 156, 0.84);	*/
+	color:white;
+	border-radius:0px 100px 100px 0px;
+}
+
+#titulo_artesanal:hover{
+	background-color:#AE7C4D;
+	/*color:rgba(242, 216, 136, 0.84);	*/
+	color:white;
+	border-radius:0px 100px 100px 0px;
+}
+
+
+footer{
+	background-position:left;
+	text-align:left;
+}
+
+
+
+
